@@ -3,10 +3,10 @@ Simple project using Oracle Apex. The APEX_COLLECTION provided by Oracle Apex wa
 In Oracle APEX, APEX_COLLECTION is a feature that allows you to manage in-memory collections of data, which can be used to temporarily store and manipulate data within a session. This is particularly useful when you need to handle data that doesn't directly correspond to database tables or when you want to perform complex manipulations before committing the data to the database.
 
 Key Features of APEX_COLLECTION
--Temporary Storage: Collections are stored in session memory and are automatically cleared when the session ends.
--Session-Specific: Each collection is unique to the user session.
--Structured Data Handling: You can define collections with specific column structures, similar to database tables.
--Flexible Usage: Ideal for scenarios like multi-step processes, temporary data manipulation, or holding intermediate results.
+- Temporary Storage: Collections are stored in session memory and are automatically cleared when the session ends.
+- Session-Specific: Each collection is unique to the user session.
+- Structured Data Handling: You can define collections with specific column structures, similar to database tables.
+- Flexible Usage: Ideal for scenarios like multi-step processes, temporary data manipulation, or holding intermediate results.
 
 Common Operations
 - Create a Collection:

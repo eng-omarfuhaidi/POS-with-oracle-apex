@@ -1,0 +1,3 @@
+APEX_COLLECTION.CREATE_OR_TRUNCATE_COLLECTION(
+    p_collection_name =>'POINT_SALE'
+);
